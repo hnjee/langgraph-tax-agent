@@ -5,6 +5,13 @@ build/
 dist/
 wheels/
 *.egg-info
-.env
+
 # Virtual environments
 .venv
+
+.env
+.python-version
+.DS_Store
+
+# Chroma vector store (generated)
+income_tax_collection/
