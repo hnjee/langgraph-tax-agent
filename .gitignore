@@ -15,3 +15,4 @@ wheels/
 
 # Chroma vector store (generated)
 income_tax_collection/
+real_estate_tax_collection/
