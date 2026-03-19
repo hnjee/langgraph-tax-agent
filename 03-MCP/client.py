@@ -13,7 +13,6 @@ from langchain_core.messages import HumanMessage
 load_dotenv()
 
 llm = ChatOpenAI(model='gpt-4o')
-small_llm = ChatOpenAI(model='gpt-4o-mini')
 
 async def main():
     client = MultiServerMCPClient(

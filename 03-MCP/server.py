@@ -5,6 +5,7 @@ from duckduckgo_search import DDGS
 
 mcp = FastMCP("my_tools")
 
+#name → 함수 이름 (add), description → docstring (숫자 a와 b를 더합니다.), parameters → 타입 힌트 (a: int, b: int)
 @mcp.tool()
 def add(a: int, b: int):
     """숫자 a와 b를 더합니다."""
